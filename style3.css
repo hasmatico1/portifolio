@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(230, 187, 255);
+}
+.paragrafo1{
+    background-color: rgb(255, 127, 255);
+    color: rgb(68, 77, 85);
+}
+.paragrafo2{
+    background-color: rgb(255, 127, 255);
+    color: rgb(68, 77, 85);
+}
+.Home{
+    list-style-type: none;
+    
+    background-color: #fdff77;
+    display: inline-block;
+    color: #000000;
+    padding: 8px 10px;
+
+}
+.home a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Homee:hover{
+background-color: #efff5f;
+}
+
+.Homee :hover{
+text-decoration: none;
+
+color: rgb(0, 0, 0);
+padding: 8px 10px;
+}

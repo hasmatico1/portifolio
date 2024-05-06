@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(187, 187, 187);
+}
+
+.container {/* centraliza as opçoes de contato*/
+    display: block;
+    margin: auto;
+    max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+.social-icons {
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0; 
+}
+
+.social-icons img {
+    width: 100px; 
+    height: auto;
+}
+
+.Home {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.Home .Homee {
+    background: linear-gradient(to right, navy 50%, darkblue 50%);
+    border-radius: 5px; 
+    padding: 5px 10px; 
+}
+
+.Home .Homee a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+h1{/* Isso centraliza o texto dentro do h1 */
+    width: 50%; 
+    margin: auto;
+    text-align: center; 
+    font-style:oblique;
+    background-color: #9ef9ff;
+}
+#area {
+    text-align: center;
+  }
+
+  #formulario {
+    display: inline-block;
+    text-align: left;
+  }
+  h2{
+    text-align: center;
+  }

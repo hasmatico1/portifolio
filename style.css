@@ -1,0 +1,60 @@
+.destaque {
+    background-color: aqua;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+    border-style: solid;
+
+}
+img {  /* minha foto de perfil */
+    border-color: black;
+    border: 4px 4px 4px 4px;
+    display: block;
+    margin: auto;
+    max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+    border-style: solid;
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: hsl(147, 100%, 77%);
+    border-radius: 10%;
+    position: fixed; 
+    bottom: 50%;
+    left: 50%; 
+    transform: translate(-50%, 50%); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    /* esse tanto de comando aqui serve para quando for movimentar a pagina o ul ficar no lugar bonitinho*/
+
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: hsl(162, 65%, 51%);
+    color: #ffffff;
+    border-radius: 25%;
+}
+
+body{ /* tratar a imagem paraficar portoda a pagina */
+    background-image: url('./imgens/fundoverde.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
